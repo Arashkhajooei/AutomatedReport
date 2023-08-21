@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delivery Dashboard</title>
+</head>
+<body>
+    <h1>Delivery Dashboard</h1>
+    <div class="chart-container">
+        {{ hourly_plot | safe }}
+    </div>
+    <div class="chart-container">
+        {{ daily_plot | safe }}
+    </div>
+</body>
+</html>
